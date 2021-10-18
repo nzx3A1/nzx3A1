@@ -4,52 +4,243 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="style.css"
+      rel="stylesheet">
+    <title>Responsive CV </title>
 </head>
 <body>
-    <p>一、 <strong>关于番茄时钟以及任务清单等的多端协同及硬件实现</strong></p>
+    <div class="container">
+        <div class="leftSide">
+            <div class="profile">
+                <img src="Snipaste_2021-10-15_12-47-18.png" alt="avatar">
+                <h2>莹<br> <span>旅行者/我们终将重逢</span> </h2>
+            </div>
 
-<p><strong>Tomato clock</strong></p>
+             <div class="contactInfo">
+                <h3 class="title">联系方式</h3>
+           
 
-<p>项目背景:最近番茄时钟以及任务清单之类的软件很受欢迎，安卓端，PC端，网页端都有对应软件，但同时也缺乏对应的硬件设备布局。</p>
+                <ul>
+                    <li>
+                        <br>
+                        <span class="text">迪卢克的地下情报 <br>
+                            安柏的寻人启事</span>
+                    </li>
+                    <li>
+                        <span class="material-icons" >
+                            UID
+                        </span>
+                        <br>
+                        <span class="text">173007246</span>
+                    </li>
 
-<p>项目构想:</p>
+                    <li>
+                        <span class="material-icons">
+                            email
+                            </span>
+                            <br>
+                        <span class="text">1901771781@qq.com</span>
+                    </li>
 
-<ol><li><p>在PC  PE  网页 APP 端实现数据同步</p></li><li><p>开发对应硬件实现数据可视化(如番茄）</p></li><li><p>除番茄时钟以及任务清单等功能还可以扩展更多功能如喝水提醒，睡眠提示等，培养健康的生活习惯，同时尽量通过便捷的硬件操作，简化制定计划的过程。</p></li><li><p>可以增加新闻推送和天气预报等获取信息的功能。</p></li><li><p>增加的功能比如检测空气湿度与温度，自动会有加湿的功能，加湿功能可以拓展设置加湿器部分，还可以设置提醒，播报实时新闻</p></li></ol>
+                    <li>
+                        <span class="material-icons">
+                            public
+                        </span>
+                        <br>
+                        <a href="https://space.bilibili.com/1042219595" target="_blank"><span class="text">https://space.bilibili.com/1468907420</span></a>
+                    </li>
 
-<p><strong>二、自动跟随的智能救生浮板</strong></p>
+                    <li>
+                        <span class="material-icons">
+                            location_on
+                            </span>
+                            <br>
+                        <span class="text">提瓦特大陆</span>
+                    </li>
 
-<p>声源定位、图像识别、超声波等多种方式来实现完全自主控制，不需要人工干预即可对特定目标进行跟随。</p>
 
-<p>救生浮板有两种工作模式</p>
+                </ul>
+             </div>
 
-<ol><li>自动跟随模式</li><li>自动巡航救援模式</li></ol>
+             <div class="contactInfo education">
+                 <h3 class="title">教育经历</h3>
+                    <ul>
+                        <li>
+                            <h5></h5>
+                            <h4>湖南科技大学</span>
+                                <br>
+                            <span class="text">计算机专业</span>
+                        </li>
+                        <li>
+                            <!-- <h5>20xx-20xx</h5>
+                            <h4>xx大学</h4>
+                            <span class="text">计算机专业本科</span> -->
+                        </li>
+                    </ul>
+             </div>
 
-<p>使用者携带浮板下水后，浮板处于自动跟随模式，浮板紧随在使用者一臂距离的位置，和游泳者保持同步。
-如果游泳者体力不支或者遭遇险情，可伸手抓取救生浮板，浮板开启自动巡航救援模式，协助使用者离开危险水域，回到岸边</p>
+             <div class="contactInfo language">
+                 <h3 class="title">语言</h3>
+                    <ul>
+                        <li> <span class="text">CET-4:425/710</span> </li>
+                        <li> <span class="percent">
+                            <div style="width:calc(425/710*100%);"></div>
+                        </span> </li>
 
-<p>三、<strong>智能监控系统</strong></p>
+                        <li> <span class="text">CET-6:425/710</span> </li>
+                        <li> <span class="percent">
+                            <div style="width:calc(425/710*100%);"></div>
+                        </span> </li>
 
-<p>项目背景：由于在网上看过许多在大城市独居工作的人士(尤其是女性)遇害的新闻，希望能通过在家门口装一个智能化的监控系统让人们能注意到一些在门口附近行踪诡异的人，提高警惕，减少类似事故的发生率同时也能保存部分证据用于报警。</p>
+                        <!-- <li> <span class="text">PTE: 85/90</span> </li>
+                        <li> <span class="percent">
+                            <div style="width:calc(85/90*100%);"></div>
+                        </span> </li> -->
+                    </ul>
+             </div>
+       </div>
 
-<p>项目初步构想：监控需要有较精确的人脸识别技术和与手机终端的交互作用，录入自己的人脸后，自己的信息处于安全状态，识别到其他陌生人时都是处于非安全状态，每次当陌生人进入摄像视野后开始计时，当停留在摄像视野八秒以上将该视频上传到相应的手机终端的应用中，并伴随警报，如果停留时间小于八秒，则不上传视频，如果陌生人的身体部位停留在门上超过5秒，将视频上传到手机上同时开启紧急报警。</p>
+    
 
-<p>项目创新点：通过计算机视觉应用，对脸部和行为进行判断后及时将信息反馈给用户并给予警报，如果严重则会触发自动报警，具有一定智能性。</p>
 
-<p>四、<strong>探索变形机器人</strong></p>
+        <div class="rightSide">
+            <div class="about">
+                <h2 class="title2">个人介绍</h2>
+                <p>从世界之外漂流而来的旅行者，曾经跨越诸多世界。荧与哥哥空来到提瓦特后，
+                    遭遇了坎瑞亚覆灭导致的天变地异。先一步醒来的荧唤醒了空，要和他一起离开提瓦特。但他们很
+                    快就遇到了一位拦住去路的陌生神灵，未能逃离.</p>
+            </div>
 
-<p>项目背景：</p>
+            <div class="about">
+                <h2 class="title2">旅行经历</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <h5></h5>
+                        <h5>蒙德</h5>
+                    </div>
+                        <div class="text">
+                            <h4>自由</h4>
+                            <p>燃炬射箱真君：安柏<br>
+                                踏冰渡海真君：凯亚<br>  
+                                愿风神忽悠你：温迪</p>
+                        </div>
+                </div>  
+                
+                <div class="box">
+                    <div class="year-company">
+                        <h5></h5>
+                        <h5>璃月</h5>
+                    </div>
+                        <div class="text">
+                            <h4>契约</h4>
+                            <p>凝光大人毕生的梦想，盖一座能遮住全大陆的群玉阁，她却为了消灭魔神舍弃了自己一生的梦醒和之前所有的努力，这种魄力，我只能对凝光佩服</p>
+                        </div>
+                </div>  
 
-<p>在地震或者某些复杂地形环境探索时，目前逐渐转向由小型机器人进行操作，但是由于地形的各种不确定因素，会导致探索过程艰难，因此希望设计出能够应对不同地形转化成不同形态的机器人进行探索会使得过程更加方便</p>
+                <div class="box">
+                    <div class="year-company">
+                        <h5></h5>
+                        <h5>稻妻</h5>
+                    </div>
+                        <div class="text">
+                            <h4>永恒</h4>
+                            <p>1，八重神子的低语，而且这个声音甚至可以空耳成那句恐怖的言语。<br>
+                                2，月色朦胧，轻纱扬起，这一支舞我只为你一个人跳，无奈神女有情，襄王无意。<br>
+                                3，雷电将军拔刀。<br></p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="year-company">
+                        <h5>总结</h5>
+                        <h5></h5>
+                    </div>
+                        <div class="text">
+                            <h4></h4>
+                            <p>“迫近的客星”<br>
+                                “白垩与黑龙”<br>
+                                “明霄升海平”<br>
+                                “风花的邀约”<br>
+                                “玉扉绕尘歌”<br>
+                                “盛夏，海岛，大冒险！”<br>
+                                “不动鸣神，泡影断灭”<br>
+                                “韶光抚月，天下人间”<br>
+                                “雾海悬谜境”<br>
+                                ——————愿前路无止境</p>
+                        </div>
+                </div>
+            
+            </div>
 
-<p>项目初步构想：机器人应配有夜视监控的功能，同时能把画面传递到手机的APP上或者小程序上，操作者可对当前环境做出判断，选择将机器人转化成不同形态，比如如果遇到比较窄小的空间可以将该机器人变形成长条型方便通过。</p>
+         <div class="about skills">
+            <h2 class="title2">专业技能</h2> 
+                <div class="box">
+                    <h4>持强凌弱</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4></h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>沉默寡言</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>所过之处寸草不生</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>体力清空</h4>
+                    <div class="percent">
+                        <div style="width: 92%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>找宝箱</h4>
+                    <div class="percent"><div style="width: 85%;"></div></div>
+                </div>
 
-<p>项目创新点：机器人能够通过变换不同形态适应各种环境，并采集数据。</p>
+         </div>
 
-<p>五、<strong>自动浇水</strong></p>
+         <div class="about interest">
+            <h2 class="title2">兴趣爱好</h2> 
+            <ul>
+                <li><span class="material-icons"  style="vertical-align: -6px;">
+                    攀岩
+                    </span> 
+                 
+                </li>
+                <li><span class="material-icons"  style="vertical-align: -6px;">
+                    挖矿
+                    </span>
+                
+                </li>
+                <li><span class="material-icons"  style="vertical-align: -6px;">
+                    采集
+                    </span>
+                    
+                </li>
+                <li><span class="material-icons"  style="vertical-align: -6px;">
+                    料理
+                    </span>
+                   
+                </li>
+            </ul>
 
-<p>项目背景：很多人因为没有精力和时间去给植物浇水导致植物的枯萎。
-项目初步构想：搞一个能采集植物土壤湿度，在植物土壤湿度过低时能自动浇水的机器，管理员只需给机器装水即可。
-涉及嵌入式温湿传感器</p>
+         </div>
+
+
+
+        </div>
+    </div>
 </body>
 </html>
